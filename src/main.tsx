@@ -4,7 +4,7 @@ import App from './App.tsx'
 import './index.css'
 import { TonConnectUIProvider } from '@tonconnect/ui-react';
 
-const manifestUrl = 'https://leducanh25061997.github.io/twa-webclien-waebox';
+const manifestUrl = 'https://leducanh25061997.github.io/twa-webclien-waebox/tonconnect-manifest.json';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
