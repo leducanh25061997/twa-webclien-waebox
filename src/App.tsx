@@ -28,7 +28,7 @@ function App() {
         <a
           className={`Button ${connected ? 'Active' : 'Disabled'}`}
           onClick={() => {
-            sendIncrement();
+            sendIncrement()
           }}
         >
           Increment
